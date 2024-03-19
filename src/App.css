@@ -1,0 +1,825 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 1512px;
+    margin: 0 auto;
+}
+
+.container .upper-nav {
+    background-color: #2f2f2f;
+    color: white;
+    width: 1512px;
+    height: 116px;
+    padding: 0 2%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+}
+
+.container .upper-nav .turn {
+    margin-right: 10%;
+}
+
+.container .upper-nav .aff {
+
+    text-align: center;
+    background-color: #ff8114;
+    color: black;
+    line-height: 35px;
+    width: 330px;
+    height: 36px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.container .upper-nav .aff h2 {
+    font-size: 22px;
+}
+
+/* ----------Navbar------------------- */
+
+.container .navbar {
+    width: 1512px;
+    height: 69px;
+    padding: 0 20px;
+    background-color: #E1E3E5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .navbar .nbtn {
+    background-color: #FF7518;
+    width: 149px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.container .navbar ul {
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.container .navbar ul li a {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* -------------------slider---------------------- */
+.container .slider {
+    width: 1512px;
+    height: 232px;
+    background-image: linear-gradient(to right, #FF7518, #D9D9D900), url("Rectangle 195.png");
+    display: flex;
+    align-items: center;
+    padding-left: 116px;
+
+}
+
+.container .slider p {
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Segoe UI';
+}
+
+/* ----------------------Slider Paragraph-------------------------- */
+span {
+    color: #FF7518;
+    font-weight: bolder;
+}
+
+.container .slider-paragraph {
+    width: 1512px;
+    height: 344px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.container .slider-paragraph .sliderinner {
+    width: 1180px;
+    height: 244px;
+
+}
+
+.container .slider-paragraph p {
+    font-size: 26px;
+    line-height: 34.58px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ----------------Row-------------------- */
+.container .after-paragraph {
+    width: 1028px;
+    height: 456.03px;
+}
+
+.container .after-paragraph p {
+    font-family: 'Segoe UI';
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 160px;
+    color: #FF7518;
+}
+
+.container .after-paragraph .row {
+    width: 1028px;
+    height: 400.03px;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    margin-left: 160px;
+    gap: 20px;
+}
+
+.container .after-paragraph .row .d1,
+.d2,
+.d3 {
+    background-color: #2F2F2F;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+    border-radius: 15px;
+    width: 280px;
+    height: 342px;
+}
+
+.container .after-paragraph .row .d1 h3 {
+    margin-top: 30px;
+}
+
+.container .after-paragraph .row .d3 h3 {
+    margin-top: 30px;
+}
+
+.container .after-paragraph .row h3 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container .after-paragraph .row img {
+    border-radius: 10px;
+}
+
+/* ----------------------Content Section After Row---------------------- */
+.container .Content-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 158px;
+    position: relative;
+}
+
+.container .Content-section ul {
+    margin-left: 20px;
+}
+
+.container .Content-section h3 {
+    font-family: 'Segoe UI';
+    font-size: 40px;
+    font-weight: 900;
+    color: #FF7518;
+}
+
+.container .Content-section .Content-section1 ul li {
+    font-family: 'Segoe UI';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 34.58px;
+}
+
+.container .Content-section .Content-section2 {
+    margin-top: 50px;
+    display: flex;
+}
+
+.container .Content-section .Content-section2 ul li {
+    font-family: 'Segoe UI';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 34.58px;
+}
+
+.container .Content-section .Content-section2 .ul2 {
+    margin-left: -250px;
+    margin-top: 60px;
+}
+
+.container .Content-section .abs {
+    position: absolute;
+    bottom: 0;
+    left: 700px;
+}
+
+/* ----------------------Ready---------------------------- */
+.container .ready {
+    width: 1181px;
+    height: 505px;
+    padding-left: 150px;
+    margin-top: 50px;
+}
+
+.container .ready h2 {
+    font-family: 'Segoe UI';
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #FF7518;
+}
+
+.container .ready h3 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+    color: #000000;
+    font-family: 'Segoe UI';
+}
+
+.container .ready p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 39px;
+    color: black;
+}
+
+/* ---------------------Look----------------------------- */
+.container .look {
+    width: 1180px;
+    height: 379px;
+    margin-left: 150px;
+    text-align: center;
+    margin-top: -150px;
+}
+
+.container .look h2 {
+    margin: 50px 0;
+    font-size: 40px;
+    font-family: 'Segoe UI';
+    font-weight: 900;
+    color: #FF7518;
+}
+
+.container .look .sublook {
+    display: flex;
+    gap: 30px;
+}
+
+.container .look .sublook img {
+    width: 266px;
+    height: 247px;
+}
+
+.container .look .sublook p {
+    width: 280px;
+    height: 84px;
+    background-color: #2F2F2F;
+    border-radius: 15px;
+    line-height: 84px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    margin-top: -50px;
+    position: absolute;
+    bottom: -20px;
+    left: -7px;
+}
+
+.container .look .sublook .l1 {
+    position: relative;
+}
+
+/* -----------------Botom Slider------------------------ */
+.container .bslider {
+    width: 1512px;
+    height: 324px;
+    background-image: url(bslider.png);
+    margin-top: 50px;
+    display: flex;
+}
+
+.container .bslider p {
+    width: 324px;
+    height: 117.86px;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Segoe UI';
+    font-weight: 900;
+    background-color: #FF7518;
+    line-height: 117.86px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 73px;
+    margin-left: 50px;
+}
+
+.container .bslider h2 {
+    font-family: 'Segoe UI';
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 43.22px;
+    color: white;
+    margin-top: 103px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.container .bslider .a {
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+/* ----------------------------Footer------------------------------------ */
+.container .footer {
+    width: 1512px;
+    height: 451px;
+    background-color: #1B1B1B;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 70px;
+}
+
+.container .footer .f1,
+.f2,
+.f3 {
+    width: 33.3%;
+}
+
+.container .footer .f1 p {
+    margin-top: 20px;
+}
+
+.container .footer .f2 h2 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 52.5px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container .footer .f2 h3 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container .footer .f3 {
+    margin-left: 50px;
+}
+
+.container .footer .f3 h2 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 52.5px;
+    margin-top: 30px;
+}
+
+.container .footer .f3 p {
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26.6px;
+    margin: 50px 0;
+}
+
+.container .privacy {
+    text-align: center;
+}
+
+.container .privacy p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+    background-color: #1B1B1B;
+}
+
+/* -------------------Responsive-------------------------- */
+@media only screen and (max-width: 1300px) {
+    .container {
+        width: 1300px;
+    }
+
+    .container .upper-nav {
+        width: 1300px;
+    }
+
+    .container .navbar {
+        width: 1300px;
+    }
+
+    .container .navbar ul li a {
+        font-size: 13px;
+    }
+
+    .container .slider {
+        width: 1300px;
+    }
+
+    .container .slider-paragraph {
+        width: 1300px;
+    }
+
+    .container .after-paragraph {
+        margin-left: -100px;
+    }
+
+    .container .Content-section {
+        margin-left: 50px;
+    }
+
+    .container .ready {
+        padding-left: 50px;
+    }
+
+    .container .look {
+        margin-left: 50px;
+    }
+
+    .container .bslider {
+        width: 1300px;
+    }
+
+    .container .bslider h2 {
+        margin-top: 70px;
+    }
+
+    .container .footer {
+        width: 1300px;
+    }
+
+    @media only screen and (max-width: 1100px) {
+        .container {
+            width: 1100px;
+        }
+
+        .container .upper-nav {
+            width: 1100px;
+        }
+
+        .container .navbar {
+            width: 1100px;
+        }
+
+        .container .navbar ul li a {
+            font-size: 10px;
+        }
+
+        .container .slider {
+            width: 1100px;
+        }
+
+        .container .slider-paragraph {
+            width: 1100px;
+        }
+
+        .container .after-paragraph {
+            margin-left: -150px;
+        }
+
+        .container .Content-section {
+            margin-left: 20px;
+        }
+
+        .container .Content-section .abs img {
+            width: 370px;
+            height: 500px;
+            bottom: 200px;
+        }
+
+        .container .ready {
+            padding-left: 20px;
+            width: 1000px;
+        }
+
+        .container .look {
+            width: 900px;
+            margin-left: 20px;
+        }
+
+        .container .look .sublook {
+            gap: 5px;
+        }
+
+        .container .look .sublook img {
+            width: 240px;
+
+        }
+
+        .container .look .sublook p {
+            width: 240px;
+            height: 50px;
+            line-height: 50px;
+            left: 0;
+        }
+
+        .container .bslider {
+            width: 1100px;
+        }
+
+        .container .bslider h2 {
+            margin-top: 50px;
+            font-size: larger;
+        }
+
+        .container .bslider p {
+            font-size: large;
+            width: 240px;
+            height: 80px;
+            line-height: 80px;
+        }
+
+        .container .bslider .a {
+            margin: 0;
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+
+        .container .footer {
+            width: 1100px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .container {
+            width: 768px;
+        }
+
+        .container .upper-nav {
+            width: 768px;
+            height: 86px;
+            padding: 0 2%;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .container .upper-nav h2 {
+            font-size: small;
+        }
+
+        .container .upper-nav .aff {
+            width: 170px;
+            height: 20px;
+            border-radius: 15px;
+        }
+
+        .container .upper-nav .aff h2 {
+            font-size: 10px;
+            line-height: 20px;
+        }
+
+        .container .upper-nav .phone {
+            font-size: small;
+        }
+
+        .container .upper-nav .mail {
+            font-size: 10px;
+        }
+
+        .container .navbar {
+            width: 768px;
+            padding: 0;
+        }
+
+        .container .navbar img {
+            width: 100px;
+            margin-top: 15px;
+        }
+
+        .container .navbar ul {
+
+            gap: 5px;
+        }
+
+        .container .navbar ul li a {
+            font-size: 10px;
+        }
+
+        .container .navbar .nbtn {
+            width: 80px;
+            height: 22px;
+            line-height: 20px;
+            text-align: center;
+            border-radius: 20px;
+            margin-left: 10px;
+        }
+
+        .container .slider {
+            width: 768px;
+        }
+
+        .container .slider-paragraph {
+            width: 768px;
+            padding-top: -100px;
+        }
+
+        .container .slider-paragraph .sliderinner {
+            width: 768px;
+            height: 144px;
+            padding-top: 0;
+        }
+
+        .container .slider-paragraph .sliderinner p {
+            font-size: small;
+            padding: 0 20px;
+            margin-top: -90px;
+        }
+
+        .container .after-paragraph {
+            margin-left: -150px;
+        }
+
+        .container .after-paragraph p {
+            font-size: large;
+            margin-top: -100px;
+        }
+
+        .container .after-paragraph .row {
+            width: 768px;
+            height: 300px;
+            margin-left: 80px;
+            gap: 20px;
+            justify-content: end;
+        }
+
+        .container .after-paragraph .d2,
+        .d3,
+        h3 {
+            margin-top: 0;
+            font-size: small;
+        }
+
+        .container .after-paragraph .row .d1,
+        .d2,
+        .d3 {
+
+            width: 180px;
+            height: 242px;
+        }
+
+        .container .Content-section {
+            margin-left: 60px;
+            margin-top: -50px;
+            padding: 0 20px;
+        }
+
+        .container .Content-section .Content-section1 ul li {
+            font-size: 15px;
+        }
+
+        .container .Content-section .Content-section2 ul li {
+            font-size: 15px;
+        }
+
+        .container .Content-section .Content-section2 .ul2 {
+            margin-left: 100px;
+        }
+
+        .container .Content-section .abs {
+            bottom: 200px;
+            left: 450px;
+        }
+
+        .container .Content-section h3 {
+            font-size: 20px;
+        }
+
+        .container .Content-section .abs img {
+            width: 370px;
+            height: 500px;
+            bottom: 200px;
+        }
+
+        .container .ready {
+            padding-left: 20px;
+            width: 700px;
+        }
+
+        .container .ready h2 {
+            font-size: 30px;
+        }
+
+        .container .ready h3 {
+            font-size: large;
+        }
+
+        .container .ready p {
+            font-size: smaller;
+        }
+
+        .container .look {
+            width: 760px;
+            margin-left: 20px;
+        }
+
+        .container .look h2 {
+            font-size: 20px;
+        }
+
+        .container .look .sublook {
+            width: 760px;
+        }
+
+        .container .look .sublook .l1 img {
+            width: 170px;
+            height: 200px;
+        }
+
+        .container .look .sublook .l1 p {
+            width: 170px;
+            height: 50px;
+        }
+
+        .container .look .sublook {
+            gap: 5px;
+        }
+
+        .container .look .sublook img {
+            width: 240px;
+        }
+
+        .container .look .sublook p {
+            width: 240px;
+            height: 50px;
+            line-height: 50px;
+            left: 0;
+        }
+
+        .container .bslider {
+            width: 768px;
+        }
+
+        .container .bslider h2 {
+            margin-top: 50px;
+            font-size: small;
+        }
+
+        .container .bslider p {
+            font-size: small;
+            width: 240px;
+            height: 80px;
+            line-height: 80px;
+        }
+
+        .container .bslider .a {
+            margin: 0;
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+
+        .container .footer {
+            width: 768px;
+            height: auto;
+
+            display: block;
+        }
+
+        .container .footer .f1,
+        .f2,
+        .f3 {
+            width: 100%;
+        }
+
+        .container .footer .f2 h3 {
+            text-align: left;
+        }
+
+        .container .footer .f3 {
+            text-align: left;
+            margin-left: -10px;
+        }
+        .container .footer .f3 h2{
+            text-align: center;
+        }
+    }
+
+}
